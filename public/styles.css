@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  margin: 70px;
+}
+
 footer {
   position: absolute;
   text-align: center;
@@ -12,8 +16,12 @@ footer {
 }
 
 ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  list-style: none;
+}
+
+li{
+  margin: 0 0 0 180px;
 }

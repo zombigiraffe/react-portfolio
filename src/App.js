@@ -11,16 +11,16 @@ function App() {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link style={{textDecoration: "none"}} to="/">Home</Link>
           </li>
           <li>
-            <Link to="/pages/About">About</Link>
+            <Link style={{textDecoration: "none"}} to="/pages/About">About</Link>
           </li>
           <li>
-            <Link to="/pages/Portfolio">Portfolio</Link>
+            <Link style={{textDecoration: "none"}} to="/pages/Portfolio">Portfolio</Link>
           </li>
           <li>
-            <Link to="/pages/HireMe">Hire Me!</Link>
+            <Link style={{textDecoration: "none"}} to="/pages/HireMe">Hire Me!</Link>
           </li>
         </ul>
       </nav>
