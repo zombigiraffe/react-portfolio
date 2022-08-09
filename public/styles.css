@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Poppins:wght@400;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -23,5 +25,31 @@ ul{
 }
 
 li{
-  margin: 0 0 0 180px;
+  margin: 0 60px 0 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
+
+button{
+  border-radius: 20%;
+  background-color: white;
+  position: relative;
+  float: right;
+}
+
+.link{
+  color: rgb(80, 80, 80);
+}
+
+.logo{
+  width: 230px;
+  position: relative;
+  bottom: 20px;
+}
+
+.theme-button{
+  position: relative;
+  bottom: 5px;
+}
+
