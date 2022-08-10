@@ -5,6 +5,7 @@ import { About } from "./pages/About";
 import { Portfolio } from "./pages/Portfolio";
 import { HireMe } from "./pages/HireMe";
 import HeadLogo from "./components/logo";
+import HeadLogoDark from "./components/logodark"
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import { Button } from "@mui/material";
@@ -16,12 +17,19 @@ const [theme, setTheme] = useState('light')
 
 function toggleTheme() {
   setTheme((curr) => (curr === 'light' ? 'dark' : 'light'))
-}
+  const theBody = document.getElementById("the-body")
+    if (theme === "dark") {
+      theBody.classList.remove("theBody")
+    } else {
+      theBody.classList.add("theBody")
+    }
+  }
+
   return (
     <div id={theme}>
       <ThemeContext.Provider>
       <nav>
-    <HeadLogo />
+      {theme === "light" ? (<HeadLogo />) : (<HeadLogoDark/>)}
       <ul>
         <li>
           <Link className="link" style={{textDecoration: "none"}} to="/">HOME</Link>
@@ -35,7 +43,9 @@ function toggleTheme() {
         <li>
           <Link className="link" style={{textDecoration: "none"}} to="/pages/HireMe">HIRE ME!</Link>
         </li>
-        <Button className="theme-button" sx={{ color: 'white'}}>{theme === "dark" ? (
+        <Button className="theme-button" sx={{ color: 'white'}}>
+        
+        {theme === "dark" ? (
           <LightModeIcon sx={{ color: 'white'}}
             onClick={toggleTheme}
           />
@@ -43,7 +53,9 @@ function toggleTheme() {
           <DarkModeIcon sx={{ color: "rgb(80, 80, 80)" }}
             onClick={toggleTheme}
           />
-        )}</Button>
+        )}
+        
+        </Button>
       </ul>
     </nav>
       <Routes>

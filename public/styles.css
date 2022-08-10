@@ -53,3 +53,17 @@ button{
   bottom: 5px;
 }
 
+/* LIGHT THEME */
+#light .link{
+  color: rgb(80, 80, 80)
+}
+
+
+/* DARK THEME  */
+.theBody{
+ background-color: rgb(0, 0, 0);
+}
+
+#dark .link{
+  color: rgb(255, 255, 255)
+}
