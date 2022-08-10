@@ -1,6 +1,6 @@
 const HeadLogoDark = () => {
     return (
-            <img className="logo" src="arrondevdark.svg" alt="arron-dev-dark-logo"/>
+            <img className="logo" src="/arrondevdark.svg" alt="arron-dev-dark-logo"/>
     )
 }
 
