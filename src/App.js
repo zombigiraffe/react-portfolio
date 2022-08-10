@@ -41,7 +41,7 @@ function toggleTheme() {
           <Link className="link" style={{textDecoration: "none"}} to="/pages/Portfolio">PORTFOLIO</Link>
         </li>
         <li>
-          <Link className="link" style={{textDecoration: "none"}} to="/pages/HireMe">HIRE ME!</Link>
+          <Link className="link" style={{textDecoration: "none"}} to="/pages/HireMe">HIRE ME</Link>
         </li>
         <Button className="theme-button" sx={{ color: 'white'}}>
         

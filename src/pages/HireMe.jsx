@@ -1,3 +1,3 @@
 export function HireMe(){
-  return <h1>Hire Me!</h1>
+  return <h1>Hire Me</h1>
 }
