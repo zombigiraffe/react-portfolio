@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  margin: 70px;
+  transition: 400ms;
+}
+
+h1{
+  transition: 400ms;
+  text-align: center;
+  margin: 40px 0 45px;
+  text-decoration: underline;
+}
+
+h3{
+  transition: 400ms;
+  text-align: center;
+  line-height: 2.5rem;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  bottom: -45px;
+  text-align: center;
+  height: 2.5rem;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  list-style: none;
+}
+
+li{
+  margin: 0 60px 0 40px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+p{
+  transition: 400ms;
+  text-align: center;
+  line-height: 1.7rem;
+  position: relative;
+}
+
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.logo{
+  width: 230px;
+  position: relative;
+  bottom: 20px;
+}
+
+.theme-button{
+  position: relative;
+  bottom: 5px;
+}
+
+.portfolio-cards{
+  transition: 400ms;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  margin-top: 80px;
+  width: 390px;
+  resize: none;
+  text-align: center;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: 0 1px 10px rgb(0, 0, 0);
+}
+
+.portfolio-cards:hover {
+  scale: 1.05;
+}
+
+.portfolio-cards img{
+  transition: 400ms;
+  margin: 5px;
+  width: 350px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.portfolio-cards p{
+  margin: 10px 15px 10px;
+  transition: 400ms;
+}
+
+.code-link{
+  transition: 400ms;
+  position: relative;
+  text-decoration: none;
+}
+
+/* LIGHT THEME */
+#light h1{
+  color: #2155cd;
+}
+
+#light h3{
+  color: black;
+}
+
+#light footer{
+  color: black;
+}
+
+#light p{
+  color: black;
+}
+
+#light .link{
+  color: rgb(80, 80, 80)
+}
+
+#light .code-link{
+  color: #2155cd;
+}
+
+#light .portfolio-cards{
+  background-color: #0aa1dd;
+  border-color: #2155cd;
+ }
+
+#light .portfolio-cards img{
+  border-color: #2155cd;
+}
+
+#light .portfolio-cards p{
+  color: white;
+}
+
+/* DARK THEME  */
+.theBody{
+ background-color: rgb(0, 0, 0);
+}
+
+#dark h1 {
+  color: #cd3c21;
+}
+
+#dark h3{
+  color: white;
+}
+
+#dark footer {
+  color: white;
+}
+
+#dark p{
+  color: white;
+}
+
+#dark .link{
+  color: rgb(255, 255, 255)
+}
+
+#dark .code-link{
+  color: #cd3c21;
+}
+
+#dark .portfolio-cards{
+  box-shadow: 0 1px 10px rgb(107, 107, 107);
+  background-color: #ed9a03;
+  border-color: #cd3c21;
+ }
+
+ #dark .portfolio-cards img{
+  border-color: #cd3c21;
+}
+
+#dark .portfolio-cards p{
+  color: black;
+}
+
+
+@media (max-width: 1028px){
+ 
+}
