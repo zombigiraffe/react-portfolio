@@ -9,12 +9,11 @@ import HeadLogoDark from "./components/logodark";
 import { Button } from "@mui/material";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
-import Footer from "./components/Footer";
 export const ThemeContext = createContext("null");
 
 function App() {
   const [theme, setTheme] = useState("light");
-
+  const date = new Date().getFullYear()
   const toggleTheme = useCallback(() => {
     setTheme(theme === "light" ? "dark" : "light");
   }, [theme, setTheme]);
@@ -95,7 +94,7 @@ function App() {
           <Route path="/pages/Portfolio" element={<Portfolio />} />
           <Route path="/pages/HireMe" element={<HireMe />} />
         </Routes>
-        <Footer />
+        <footer>Arron Mixell Dev {date}</footer>
       </ThemeContext.Provider>
     </div>
   );
