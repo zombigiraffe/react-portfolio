@@ -6,14 +6,14 @@ import { Portfolio } from "./pages/Portfolio";
 import { HireMe } from "./pages/HireMe";
 import HeadLogo from "./components/logo";
 import HeadLogoDark from "./components/logodark";
-import { Button } from "@mui/material";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import LightModeIcon from "@mui/icons-material/LightMode";
+import MenuIcon from '@mui/icons-material/Menu';
 export const ThemeContext = createContext("null");
 
 function App() {
   const [theme, setTheme] = useState("light");
-  const date = new Date().getFullYear()
+  const date = new Date().getFullYear();
   const toggleTheme = useCallback(() => {
     setTheme(theme === "light" ? "dark" : "light");
   }, [theme, setTheme]);
@@ -37,56 +37,75 @@ function App() {
     localStorage.setItem("theme", JSON.stringify(theme));
   }, [theme]);
 
+const toggleMenu = () => {
+  const menuToggle = document.getElementById("ul-toggle")
+  menuToggle.classList.toggle("off-screen")
+}
+  
+
+
+
   return (
-    <div id={theme}>
+    <div className="main" id={theme}>
       <ThemeContext.Provider>
-        <nav>
-          {theme === "light" ? <HeadLogo /> : <HeadLogoDark />}
-          <ul>
-            <li>
-              <Link className="link" style={{ textDecoration: "none" }} to="/">
-                HOME
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="link"
-                style={{ textDecoration: "none" }}
-                to="/pages/About"
+        <nav className="navbar">
+          <div>
+            {theme === "light" ? <HeadLogo /> : <HeadLogoDark />}
+            <button onClick={toggleMenu} className="toggle-button">
+              <MenuIcon className="menu-icon"/>
+              </button>
+            <ul id="ul-toggle">
+              <li>
+                <Link
+                  className="link"
+                  style={{ textDecoration: "none" }}
+                  to="/"
+                >
+                  HOME
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="link"
+                  style={{ textDecoration: "none" }}
+                  to="/pages/About"
+                >
+                  ABOUT
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="link"
+                  style={{ textDecoration: "none" }}
+                  to="/pages/Portfolio"
+                >
+                  PORTFOLIO
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="link"
+                  style={{ textDecoration: "none" }}
+                  to="/pages/HireMe"
+                >
+                  HIRE ME
+                </Link>
+              </li>
+              <li>
+              <button
+                onClick={toggleTheme}
+                className="theme-button"
+                sx={{ color: "white" }}
               >
-                ABOUT
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="link"
-                style={{ textDecoration: "none" }}
-                to="/pages/Portfolio"
-              >
-                PORTFOLIO
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="link"
-                style={{ textDecoration: "none" }}
-                to="/pages/HireMe"
-              >
-                HIRE ME
-              </Link>
-            </li>
-            <Button
-              onClick={toggleTheme}
-              className="theme-button"
-              sx={{ color: "white" }}
-            >
-              {theme === "dark" ? (
-                <LightModeIcon sx={{ color: "white" }} />
-              ) : (
-                <DarkModeIcon sx={{ color: "rgb(80, 80, 80)" }} />
-              )}
-            </Button>
-          </ul>
+                {theme === "dark" ? (
+                  <LightModeIcon sx={{ color: "white" }} />
+                ) : (
+                  <DarkModeIcon sx={{ color: "rgb(80, 80, 80)" }} />
+                )}
+              </button>
+              </li>
+            </ul>
+          </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
