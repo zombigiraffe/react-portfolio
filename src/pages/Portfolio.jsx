@@ -32,7 +32,7 @@ export function Portfolio() {
           <Pieces
             key="1"
             img={images.noted}
-            p="This app I've called Note'd is made in React with various usages of complex state. I've also implemented a toggleable dark theme, as well as implemented local storage so that your notes and theme persists between sessions."
+            p="This app I've called Note'd is made in React. I've also implemented a toggleable dark theme, as well as implemented local storage so your notes and theme persist between sessions."
             link="https://noted-app-neon.vercel.app/"
             code="https://github.com/zombigiraffe/noted-app"
           />
