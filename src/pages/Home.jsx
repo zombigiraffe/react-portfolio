@@ -19,6 +19,7 @@ export function Home() {
       </div>
       <img className="appdev" src={images.appdev} alt="appdev-img"/>
       </div>
+      <div className="home-bottom-div"></div>
     </div>
   );
 }
