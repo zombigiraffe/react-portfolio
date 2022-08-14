@@ -39,11 +39,12 @@ function App() {
 
 const toggleMenu = () => {
   const menuToggle = document.getElementById("ul-toggle")
-  menuToggle.classList.toggle("off-screen")
+  if (menuToggle.className === "on-screen") {
+    menuToggle.className = "off-screen";
+    } else {
+    menuToggle.className = "on-screen";
+    }
 }
-  
-
-
 
   return (
     <div className="main" id={theme}>

@@ -10,16 +10,17 @@ export function Portfolio() {
         <div className="portfolio-top">
           <div className="portfolio-top-content">
             <h1>My Portfolio</h1>
-            <h3>
-              Here are some projects I've done that reflect my journey as a web
+            <h2>
+              Here are some projects I've done reflecting my journey as a web
               developer. <br />
-              From bottom to top, you'll see what I was creating starting out,
-              and where I am today. <br />A comprehensive history on building my
-              skillset.
-            </h3>
+              The projects at the top are my most recent creations decending <br/> downward into my earliest work. <br/>You'll see what I was creating starting out,
+              and where I am today. 
+            </h2>
+            <h3>A comprehensive history on building my
+              skillset.</h3>
             <p className="portfolio-para">
               Starting with exhibit A: this very website! This website was
-              created using React <br /> and React Router DOM. Please take a
+              created using React <br /> and React Router DOM and is fully responsive. Please take a
               look at my other projects below.
             </p>
           </div>
@@ -38,7 +39,7 @@ export function Portfolio() {
           <Pieces
             key="2"
             img={images.Escape}
-            p="This website is a homepage for my band, Escape Artist. It is a static webapp made with HTML, CSS, Bootstrap, Javascript. It is fully responsive and mobile friendly."
+            p="This website is a homepage for my band, Escape Artist. It is a static webapp made with HTML, CSS, Bootstrap, and Javascript. It is fully responsive and mobile friendly."
             link="https://zombigiraffe.github.io/Escape-Artist-Site/"
             code="https://github.com/zombigiraffe/Escape-Artist-Site"
           />
