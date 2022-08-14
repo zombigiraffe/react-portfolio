@@ -8,6 +8,8 @@ import noted from "../images/noted.PNG"
 import simon from "../images/simon.PNG"
 import tindog from "../images/tindog.PNG"
 import coding from "../images/coding.png"
+import appdev from "../images/app-development.png"
+import worker from "../images/worker.png"
 
 const images = {
     css,
@@ -19,7 +21,9 @@ const images = {
     noted,
     simon,
     tindog,
-    coding
+    coding,
+    appdev,
+    worker
 }
 
 export default images;
