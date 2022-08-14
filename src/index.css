@@ -104,6 +104,14 @@ span{
   line-height: 3rem;
 }
 
+.home-div h3{
+  margin-bottom: 0;
+}
+
+.home-div h4 {
+  margin-top: 60px;
+}
+
 .link{
   transition: 400ms;
   padding: 7px;
@@ -377,16 +385,20 @@ span{
 
   .home-div h1{
     line-height: 6rem;
-    margin-top: 3px;
+    margin: 3px 0 10px 0;
+    padding-left: 0;
   }
 
   .home-div h3{
     margin-bottom: 0px;
+    width: 300px;
   }
 
   .home-div h4{
     padding: 0px;
-    line-height: 6rem;
+    font-size: 3.5rem;
+    line-height: 5rem;
+    margin: 0 0 25px;
   }
 
   .logo{
