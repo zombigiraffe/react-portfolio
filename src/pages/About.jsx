@@ -13,6 +13,7 @@ export function About() {
       <h3>I'm always learning new skills and technologies. My current skillset inludes...</h3>
       <h1 className="skills-h1">HTML - CSS - Javascript - JQuery - React - Node - API - Git - Googling</h1>
       <h3>With limited exposure to: Express - SQL - MongoDB</h3>
+      <div className="home-bottom-div"></div>
     </div>
   );
 }
