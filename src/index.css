@@ -257,6 +257,11 @@ span{
   max-height: 720px;
 }
 
+.hire-me-h2{
+  position: relative;
+  left: 50px;
+}
+
 .hire-me-div .worker {
   position: relative;
   left: 64.5%;
@@ -266,7 +271,8 @@ span{
 
 .hire-me-div .hire-me-linkedin{
   position: relative;
-  bottom: 65px;
+  bottom: 26px;
+  z-index: 1;
 }
 
 .hire-me-div .mail-to{
@@ -457,6 +463,10 @@ span{
 
 @media (max-width: 1365px){
   
+  br{
+    display: none;
+  }
+
   h1{
     margin-top: 100px;
     padding-left: 5px;
@@ -565,7 +575,6 @@ span{
 
   .about-div h1{
     margin-left: 35px;
-    margin-top: 130px;
   }
 
   .about-div h2 {
@@ -593,7 +602,7 @@ span{
 
   .hire-me-div .hire-me-linkedin{
     position: relative;
-    right: 20px;
+    right: 5px;
   }
   
   .hire-me-div .mail-to{
@@ -618,6 +627,11 @@ span{
   .skills-h1{
     margin-right: 35px;
   }
+
+  .about-div .about-h1{
+    margin-top: 130px;
+  }
+  
 /* ------------------------------------------------------keyframes------------------------------------------------- */
   @keyframes slide-up {
     from {
