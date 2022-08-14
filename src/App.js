@@ -58,6 +58,7 @@ const toggleMenu = () => {
             <ul id="ul-toggle">
               <li>
                 <Link
+                  onClick={toggleMenu}
                   className="link"
                   style={{ textDecoration: "none" }}
                   to="/"
@@ -67,6 +68,7 @@ const toggleMenu = () => {
               </li>
               <li>
                 <Link
+                  onClick={toggleMenu}
                   className="link"
                   style={{ textDecoration: "none" }}
                   to="/pages/About"
@@ -76,6 +78,7 @@ const toggleMenu = () => {
               </li>
               <li>
                 <Link
+                  onClick={toggleMenu}
                   className="link"
                   style={{ textDecoration: "none" }}
                   to="/pages/Portfolio"
@@ -85,6 +88,7 @@ const toggleMenu = () => {
               </li>
               <li>
                 <Link
+                  onClick={toggleMenu}
                   className="link"
                   style={{ textDecoration: "none" }}
                   to="/pages/HireMe"
@@ -94,7 +98,10 @@ const toggleMenu = () => {
               </li>
               <li>
               <button
-                onClick={toggleTheme}
+                onClick={() => {
+                  toggleTheme()
+                  toggleMenu()
+                  }}
                 className="theme-button"
                 sx={{ color: "white" }}
               >
