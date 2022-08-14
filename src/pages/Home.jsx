@@ -13,7 +13,7 @@ export function Home() {
           <LinkedinIcon />
         </a>
       <div className="cv">
-        <a href="../pubic/Arron-Mixell.pdf" download>
+        <a href="https://drive.google.com/file/d/1b76DLSYdJjJy1yGn8_-GzA0xlwmmeJpK/view?usp=sharing" download>
           Download CV
         </a>
       </div>

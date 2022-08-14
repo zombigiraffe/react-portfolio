@@ -59,7 +59,7 @@ nav{
 }
 
 footer {
-  left: 45.3%;
+  width: 100%;
   position: fixed;
   text-align: center;
   bottom: 0;
@@ -491,10 +491,6 @@ span{
     text-align: right;
     position: relative;
     top: 35px;
-  }
-
-  footer{
-    left: 30%;
   }
 
   .cv a{
