@@ -47,6 +47,10 @@ h4 {
   font-size: 5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav{
   padding: 0 10% 0;
   margin-top: 80px;
@@ -95,6 +99,24 @@ span{
   line-height: 0.6rem;
 }
 
+.cv a{
+  font-size: 2rem;
+  display: flex;
+  position: relative;
+  left: 12.8%;
+  top: 25px;
+}
+
+.linkedin-icon{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  transition: 400ms;
+  margin: 20px;
+  position: absolute;
+  left: 8.5%;
+}
+
 .home-div{
   margin-top: 170px;
 }
@@ -102,6 +124,10 @@ span{
 .home-div h1{
   font-size: 5rem;
   line-height: 3rem;
+}
+
+.home-div h2{
+  margin-bottom: 20px;
 }
 
 .home-div h3{
@@ -204,7 +230,7 @@ span{
   border-style: none;
 }
 
-/* LIGHT THEME */
+/*----------------------------------- LIGHT THEME ------------------------------------------------*/
 #light h1{
   color: #2155cd;
 }
@@ -225,8 +251,16 @@ span{
   color: black;
 }
 
+#light .cv a{
+  color: #2155cd;
+}
+
 #light .home-h1 {
   color: #0aa1dd;
+}
+
+#light .linkedin-icon{
+  filter: invert(20%) sepia(100%) saturate(1779%) hue-rotate(213deg) brightness(105%) contrast(95%);
 }
 
 #light .menu-icon{
@@ -271,7 +305,7 @@ span{
   color: white;
 }
 
-/* DARK THEME  */
+/* ---------------------------------------------DARK THEME  --------------------------------------------*/
 .theBody{
  background-color: rgb(0, 0, 0);
 }
@@ -296,8 +330,16 @@ span{
   color: white;
 }
 
+#dark .cv a{
+  color: #ed9a03;
+}
+
 #dark .home-h1 {
   color: #ed9a03;
+}
+
+#dark .linkedin-icon{
+  filter: invert(71%) sepia(34%) saturate(6040%) hue-rotate(6deg) brightness(101%) contrast(98%);
 }
 
 #dark .menu-icon{
@@ -333,7 +375,7 @@ span{
 #dark .portfolio-cards p{
   color: black;
 }
-
+/* ------------------------------------------------media------------------------------------------------ */
 @media (max-width: 1725px) {
   .webdev-img {
     display: none;
@@ -378,6 +420,14 @@ span{
     top: 35px;
   }
 
+  .cv a{
+    font-size: 2rem;
+    display: flex;
+    position: relative;
+    left: 60px;
+    top: 25px;
+  }
+
   .home-div{
     text-align: left;
     margin: 30px 0 0 40px;
@@ -399,6 +449,13 @@ span{
     font-size: 3.5rem;
     line-height: 5rem;
     margin: 0 0 25px;
+  }
+
+  .linkedin-icon{
+    margin: 20px 0 0 0;
+    left: 40px;
+    position: absolute;
+    display: flex;
   }
 
   .logo{
@@ -438,7 +495,7 @@ span{
   .portfolio-top-content {
   margin: 0 40px;
   }
-
+/* ------------------------------------------------------keyframes------------------------------------------------- */
   @keyframes slide-up {
     from {
       opacity: 0;
