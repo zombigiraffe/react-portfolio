@@ -7,8 +7,7 @@ export function Home() {
       <div className="home-div">
         <h3 className="home-h3">Hi, my name is</h3>
         <h1>Arron Mixell.</h1>
-        <h4 className="home-h1">A web developer.</h4>
-        <h2>Thank you for visiting. Please enjoy a look around my website.</h2>
+        <h4>A web developer.</h4>
         <a href="https://www.linkedin.com/in/arron-mixell-30b872155/">
           <LinkedinIcon />
         </a>
@@ -17,6 +16,7 @@ export function Home() {
           Download CV
         </a>
       </div>
+        <h2>Thank you for visiting. Please enjoy a look around my website.</h2>
       <img className="appdev" src={images.appdev} alt="appdev-img"/>
       </div>
       <div className="home-bottom-div"></div>

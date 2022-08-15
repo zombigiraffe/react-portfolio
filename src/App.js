@@ -121,7 +121,7 @@ const toggleMenu = () => {
           <Route path="/pages/Portfolio" element={<Portfolio />} />
           <Route path="/pages/HireMe" element={<HireMe />} />
         </Routes>
-        <footer>Arron Mixell Dev {date}</footer>
+        <footer><span className="footer-span">Arron Mixell Dev {date}</span></footer>
       </ThemeContext.Provider>
     </div>
   );

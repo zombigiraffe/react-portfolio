@@ -9,7 +9,7 @@ export function Portfolio() {
       <div>
         <div className="portfolio-top">
           <div className="portfolio-top-content">
-            <h1>My Portfolio</h1>
+            <h1>My <br/>Portfolio</h1>
             <h2>
               Here are some projects I've done reflecting my journey as a web
               developer. <br />
