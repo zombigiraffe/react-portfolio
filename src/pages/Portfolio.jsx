@@ -1,6 +1,7 @@
 import React from "react";
 import Pieces from "../components/Pieces";
 import images from "../components/ImageExports";
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 import { ThemeContext } from "../App";
 
 export function Portfolio() {
@@ -10,6 +11,7 @@ export function Portfolio() {
         <div className="portfolio-top">
           <div className="portfolio-top-content">
             <h1>My <br/>Portfolio</h1>
+            <a href="#projects"><button>To projects<ArrowCircleDownIcon  className="down-arrow" fontSize="large"/></button></a>
             <h2>
               Here are some projects I've done reflecting my journey as a web
               developer. <br />
@@ -28,7 +30,7 @@ export function Portfolio() {
             <img className="webdev-img" src={images.coding} alt="" />
           </div>
         </div>
-        <div className="cards card-row">
+        <div id="projects" className="cards card-row">
           <Pieces
             key="1"
             img={images.noted}
