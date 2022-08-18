@@ -12,7 +12,7 @@ export function Home() {
           <LinkedinIcon />
         </a>
       <div className="cv">
-        <a href="https://drive.google.com/file/d/1b76DLSYdJjJy1yGn8_-GzA0xlwmmeJpK/view?usp=sharing" download>
+        <a href="https://drive.google.com/file/d/1uD_91p3s_kYwpRazsJ_Ju7X4N-lM-7VN/view?usp=sharing" download>
           Download CV
         </a>
       </div>
