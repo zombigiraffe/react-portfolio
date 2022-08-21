@@ -8,9 +8,11 @@ export function Home() {
         <h3 className="home-h3">Hi, my name is</h3>
         <h1>Arron Mixell.</h1>
         <h4>A web developer.</h4>
+        <div className="linkedin-div">
         <a href="https://www.linkedin.com/in/arron-mixell-30b872155/">
           <LinkedinIcon />
         </a>
+        </div>
       <div className="cv">
         <a href="https://drive.google.com/file/d/1Ytw8RBy9_mP52O_3R4_L4bWb7sqNb8Qu/view?usp=sharing" download>
           Download CV

@@ -120,6 +120,13 @@ span{
   font-weight: 500;
 }
 
+.linkedin-div{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 9.5%;
+}
+
 .cv a{
   margin: 0;
   font-size: 2rem;
@@ -618,12 +625,20 @@ strong{
     text-align: right;
   }
 
+  .linkedin-div{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -43px;
+    bottom: 15px;
+  }
+
   .cv a{
     font-size: 2rem;
     display: flex;
     position: relative;
-    left: 60px;
-    top: 25px;
+    left: 53px;
+    top: -40px;
   }
 
   .home-bottom-div{
@@ -646,7 +661,6 @@ strong{
   .home-div h2{
     position: relative;
     margin-left: 0px;
-    top: 78px;
   }
 
   .home-div h3{
