@@ -10,6 +10,10 @@ import tindog from "../images/tindog.PNG"
 import coding from "../images/coding.png"
 import appdev from "../images/app-development.png"
 import worker from "../images/worker.png"
+import portfolio from "../images/portfolio.PNG"
+import birthday from "../images/birthday.PNG"
+import elsewhere from "../images/elsewhere.PNG"
+
 
 const images = {
     css,
@@ -23,7 +27,10 @@ const images = {
     tindog,
     coding,
     appdev,
-    worker
+    worker,
+    portfolio,
+    birthday,
+    elsewhere
 }
 
 export default images;

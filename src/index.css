@@ -283,6 +283,7 @@ span{
 .portfolio-cards p{
   margin: 10px 15px 10px;
   transition: 400ms;
+  padding-left: 5px;
 }
 
 strong{
@@ -412,7 +413,15 @@ strong{
   width: 100%;
 }
 
-#light .card-row-middle {
+#light .card-row-2 {
+  background-color: #79DAE8;
+}
+
+#light .card-row-3{
+  background-color: #2155cd;
+}
+
+#light .card-row-4 {
   background-color: #79DAE8;
 }
 
@@ -896,7 +905,7 @@ strong{
     width: 250px;
   }
 
-  .card-row, .card-row-middle{
+  .card-row, .card-row-2, .card-row-3, .card-row-4{
     position: relative;
     left: 12px;
   }
