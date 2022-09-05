@@ -15,7 +15,7 @@ export function Home() {
         </div>
       <div className="cv">
         <a href="https://drive.google.com/file/d/1eS9BJxamtkAlwQkb8OZ_swEWiGvZShje/view?usp=sharing" download>
-          Download CV
+          Download Resume
         </a>
       </div>
         <h2>Thank you for visiting. Please enjoy a look around my website.</h2>
