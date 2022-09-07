@@ -8,7 +8,7 @@ export function About() {
         I aim to become a full stack developer in the future. <br />
       </h2>
 
-      <p className="about-p">After years of employment at factories, resturaunts, and other blue collar careers, I wanted to make a change. <br />I wanted to learn something I'm passionate about to apply a skillset to. Since beginning my web development journey<br/> I haven't looked back. This is a career I know I'll love.</p>
+      <p className="about-p">After years of employment at factories, restaurants, and other blue collar careers, I wanted to make a change. <br />I wanted to learn something I'm passionate about to apply a skillset to. Since beginning my web development journey<br/> I haven't looked back. This is a career I know I'll love.</p>
 
       <h3>I'm always learning new skills and technologies. My current skillset inludes...</h3>
       <h1 className="skills-h1">HTML - CSS - Javascript - JQuery - React - Node - API - Git - Googling</h1>
