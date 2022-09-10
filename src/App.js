@@ -93,7 +93,7 @@ const toggleMenu = () => {
                   style={{ textDecoration: "none" }}
                   to="/pages/HireMe"
                 >
-                  HIRE ME
+                  CONTACT
                 </Link>
               </li>
               <li>
