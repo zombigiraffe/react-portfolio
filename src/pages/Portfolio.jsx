@@ -73,10 +73,10 @@ export function Portfolio() {
           />
           <Pieces
             key="6"
-            img={images.elsewhere}
-            p="This is a work in progress website I'm doing for another band. It will be fully responsive once completed."
-            link="https://zombigiraffe.github.io/elsewheresite/"
-            code="https://github.com/zombigiraffe/elsewheresite"
+            img={images.native}
+            p="A site I made for Native Studios. A music production studio based in Liverpool, Pennsylvania."
+            link="https://www.nativestudios.net/"
+            code="https://github.com/zombigiraffe/native-studios"
           />
         </div>
         <div className="cards card-row-3">
