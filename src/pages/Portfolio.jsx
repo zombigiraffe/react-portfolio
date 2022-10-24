@@ -60,9 +60,9 @@ export function Portfolio() {
           <Pieces
             key="4"
             img={images.birthday}
-            p="I made a cute site for my wife's birthday. This helped me get accustomed to css animations."
-            link="https://zombigiraffe.github.io/birthday-wife/"
-            code="https://github.com/zombigiraffe/birthday-wife"
+            p="I made a cute site for my wife's birthday. This helped me get accustomed to css animations. I've removed all personal details and have it hosted as a template for others to use."
+            link="https://zombigiraffe.github.io/birthday-template/"
+            code="https://github.com/zombigiraffe/birthday-template"
           />
           <Pieces
             key="5"
