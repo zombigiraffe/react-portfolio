@@ -52,7 +52,7 @@ export function Portfolio() {
             key="3"
             img={images.Escape}
             p="This website is a homepage for my band, Escape Artist. It is a static webapp made with HTML, CSS, Bootstrap, and Javascript. It is fully responsive and mobile friendly."
-            link="https://zombigiraffe.github.io/Escape-Artist-Site/"
+            link="https://www.escapeartist.band/"
             code="https://github.com/zombigiraffe/Escape-Artist-Site"
           />
         </div>
