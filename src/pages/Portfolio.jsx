@@ -91,8 +91,8 @@ export function Portfolio() {
             key="8"
             img={images.simon}
             p="This project was a combination of the concepts used in the last two applications, as well as using my first JS library, JQuery. This project was a fantastic learning experience as it has all the basic fundamentals you need to be a javascript programmer"
-            link="https://zombigiraffe.github.io/bootcamp-simon-game/"
-            code="https://github.com/zombigiraffe/bootcamp-simon-game"
+            link="https://zombigiraffe.github.io/simon-game/"
+            code="https://github.com/zombigiraffe/simon-game"
           />
           <Pieces
             key="9"
@@ -107,22 +107,22 @@ export function Portfolio() {
             key="10"
             img={images.drumkit}
             p="One of my first introductions to Javascript. This helped me become familiar with switch statements, for loops, a little bit of javascript animation and event listeners."
-            link="https://zombigiraffe.github.io/bootcamp-drum-kit/"
-            code="https://github.com/zombigiraffe/bootcamp-drum-kit"
+            link="https://zombigiraffe.github.io/drum-kit/"
+            code="https://github.com/zombigiraffe/drum-kit"
           />
           <Pieces
             key="11"
             img={images.css}
             p="A fun site I made while learning CSS."
-            link="https://zombigiraffe.github.io/bootcamp-css-learning/"
-            code="https://github.com/zombigiraffe/bootcamp-css-learning"
+            link="https://zombigiraffe.github.io/misc-css/"
+            code="https://github.com/zombigiraffe/misc-css"
           />
           <Pieces
             key="12"
             img={images.html}
             p="A silly site I worked on while learning HTML. You're sure to get a chuckle or two visting this."
-            link="https://zombigiraffe.github.io/html-learning/"
-            code="https://github.com/zombigiraffe/html-learning"
+            link="https://zombigiraffe.github.io/misc-html/"
+            code="https://github.com/zombigiraffe/misc-html"
           />
         </div>
       </div>
