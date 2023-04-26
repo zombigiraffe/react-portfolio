@@ -45,7 +45,7 @@ This is a website I made for my band. Been meaning to overhaul it.
   - Code [https://github.com/zombigiraffe/Escape-Artist-Site]
 
 ## Birthday Splash
-I made a website for my wife's birthday that inlcuded a fun spray of confetti when you click the center button. Then leads to a special message afterwards. I've removed the personal information and made this a template for anyone to use. 
+I made a website for my wife's birthday that included a fun spray of confetti when you click the center button. Then leads to a special message afterwards. I've removed the personal information and made this a template for anyone to use. 
 - ![600x200](../images/birthday.PNG)
 - Tags: Category 5
 - Badges:
